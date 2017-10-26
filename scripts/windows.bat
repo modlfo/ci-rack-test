@@ -1,1 +1,1 @@
-C:\msys64\mingw64.exe .\scripts\windows.sh
+C:\msys64\mingw64.exe C:\projects\ci-rack-test\scripts\windows.sh
