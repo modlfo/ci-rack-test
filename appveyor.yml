@@ -4,7 +4,9 @@ platform: x64
 os: Visual Studio 2015
 
 build_script:
-  - "C:\\msys64\\mingw64.exe '${APPVEYOR_BUILD_FOLDER}/scripts/windows.sh'"
+  - "cd \\"
+  - "dir"
+  - "C:/msys64/mingw64.exe '${APPVEYOR_BUILD_FOLDER}/scripts/windows.sh'"
 
 artifacts:
   - path: build/VultModules.zip
