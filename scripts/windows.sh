@@ -1,4 +1,5 @@
 export PATH=$PATH:/c/msys64/mingw64/bin
+shell gcc -dumpmachine
 pacman -S -yy --noconfirm git make tar zip unzip mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake
 mkdir build
 cd build
